@@ -1,0 +1,29 @@
+{
+  "name": "John Doe",
+  "headline": "Machine Learning Engineer",
+  "location": "San Francisco",
+  "experience": [
+    {
+      "company": "Google",
+      "role": "ML Engineer",
+      "years": "2019-2023"
+    },
+    {
+      "company": "Microsoft",
+      "role": "Data Scientist",
+      "years": "2016-2019"
+    }
+  ],
+  "education": [
+    {
+      "school": "Stanford University",
+      "degree": "MS Computer Science"
+    }
+  ],
+  "skills": [
+    "Python",
+    "Machine Learning",
+    "Deep Learning",
+    "TensorFlow"
+  ]
+}
