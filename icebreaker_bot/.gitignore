@@ -1,44 +1,5 @@
-# Python cache
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environment
-venv/
 .venv/
-env/
-
-# Environment variables
+storage/
+__pycache__/
 .env
-
-# HuggingFace / LlamaIndex model cache
-.cache/
-llama_index/
-models/
-
-# Logs
-*.log
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# IDE files
-.vscode/
-.idea/
-
-# Jupyter notebooks checkpoints
-.ipynb_checkpoints/
-
-# Temporary files
-*.tmp
-*.bak
-*.swp
-
-# Python build files
-build/
-dist/
-*.egg-info/
-
-# HuggingFace downloads
-hf_cache/
+*.pyc
