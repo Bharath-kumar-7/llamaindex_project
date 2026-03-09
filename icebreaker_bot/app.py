@@ -146,12 +146,3 @@ with gr.Blocks() as demo:
         label="Your Question",
         placeholder="Example: What skills does this candidate have?",
     )
-
-    ask_btn = gr.Button("Ask")
-
-    answer = gr.Textbox(label="Answer")
-
-    ask_btn.click(ask_question, inputs=question, outputs=answer)
-
-
-demo.launch()
