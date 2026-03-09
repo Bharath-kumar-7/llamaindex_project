@@ -1,8 +1,3 @@
-import gradio as gr
-from pypdf import PdfReader
-from dotenv import load_dotenv
-import os
-
 from llama_index.core import (
     VectorStoreIndex,
     Document,
